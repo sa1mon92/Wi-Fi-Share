@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Wi_Fi_ShareApp: App {
+    @StateObject private var settings = SettingsModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light)
+                .environmentObject(settings)
         }
     }
 }
