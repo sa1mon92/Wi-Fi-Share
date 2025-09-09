@@ -1,0 +1,52 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+*.xcuserdata
+*.xcuserdatad
+*.xccheckout
+*.xcscmblueprint
+
+# Swift
+*.swiftpm
+.swift-version
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# SPM
+.swiftpm/
+.build/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# macOS
+*.DS_Store
+
+# User-specific files
+*.user
+*.userstate
+
+# Archives
+*.xcarchive
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Misc
+*~
+._*
+

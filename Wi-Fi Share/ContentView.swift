@@ -38,6 +38,28 @@ struct ContentView: View {
                 .pickerStyle(.segmented)
                 .padding()
             }
+            .gesture(
+                DragGesture()
+                    .onEnded { value in
+                        if value.translation.width < -50 {
+                            nextItem()
+                        } else if value.translation.width > 50 {
+                            previousItem()
+                        }
+                    }
+            )
+        }
+    }
+    
+    func nextItem() {
+        withAnimation {
+            selectedSegment = (selectedSegment + 1) % WiFiType.allCases.count
+        }
+    }
+    
+    func previousItem() {
+        withAnimation {
+            selectedSegment = (selectedSegment - 1 + WiFiType.allCases.count) % WiFiType.allCases.count
         }
     }
     

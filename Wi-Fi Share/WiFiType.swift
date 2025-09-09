@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum WiFiType: Int {
+enum WiFiType: Int, CaseIterable {
     case guest
     case base
     case base5g

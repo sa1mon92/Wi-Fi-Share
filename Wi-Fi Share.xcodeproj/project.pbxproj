@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0DAD9EAC2E6FF2ED00959A2D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD9EAB2E6FF2E800959A2D /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0DAD9EAB2E6FF2E800959A2D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0DC946AC2E6ECB7800096AC9 /* Wi-Fi Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wi-Fi Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		0DC946A32E6ECB7800096AC9 = {
 			isa = PBXGroup;
 			children = (
+				0DAD9EAB2E6FF2E800959A2D /* .gitignore */,
 				0DC946AE2E6ECB7800096AC9 /* Wi-Fi Share */,
 				0DC946AD2E6ECB7800096AC9 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAD9EAC2E6FF2ED00959A2D /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
